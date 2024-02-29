@@ -73,9 +73,7 @@ const imgElem = images.map(({ preview, original, description}) => {
           class="gallery-image"
           src="${preview}"
           data-source="${original}"
-          alt="Image description"
-           width="360px"
-           height="200px"
+          alt="${description}"
         />
       </a>
     </li>`
